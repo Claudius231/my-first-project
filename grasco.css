@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.topbar{
+    background-attachment: fixed;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+   height: 11vh;
+}
+
+.topbar nav{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+
+.topbar nav a{
+    padding-top: 90px;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: crimson;
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.topbar a:hover{
+    background: teal;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 35px;
+}
+
+.bravo{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 250px;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    margin-left: 350px;
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    font-weight: 500;
+    word-spacing: 1.6px;  
+}
+
+.zero{
+    text-align: center;
+    text-transform: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/gar1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1400px 700px;
+    display: grid;
+}
+
+.button{
+    padding: 15px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button a{
+    text-decoration: none;
+    background: salmon;
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; 
+    padding: 15px;
+    word-spacing: 1.5px;
+}
+
+.button a:hover{
+    background: crimson;
+}

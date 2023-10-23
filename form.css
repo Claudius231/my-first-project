@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(pink, purple);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formcontainer{
+    width: 330px;
+    height: 53vh;
+    background-color: white;
+    padding: 80px;
+    padding-top: 60px;
+    place-items: center;
+    margin-top: 20px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.formcontainer h1{
+    text-align: center;
+    margin-top: auto;
+    font-size: 30px;
+}
+
+.form2{
+    background: linear-gradient(pink, purple);
+    width: 170px;
+    height: 5vh;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 6s00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form2:hover{
+    opacity: 0.7;
+    background: lightblue;
+    cursor: pointer;
+}
+
+.form1{
+    background: linear-gradient(pink, purple);
+    width: 170px;
+    height: 5vh;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form1:hover{
+    opacity: 0.7;
+    background: lightblue;
+    cursor: pointer;
+}
+.form3{
+    background: linear-gradient(pink, purple);
+    width: 250px;
+    height: 6vh;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    margin-left: 10px;
+    text-align: center;  
+    font-weight: 600;
+}
+.form3:hover{
+    opacity: 0.7;
+    background: teal;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+    font-size: medium;
+}
+
+.formcontainer input{
+    width: 250px;
+    text-align: center;
+    height: 3vh;
+}
+
+.par{
+    color: pink;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

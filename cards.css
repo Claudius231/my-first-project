@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(27,27,27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.card-images1{
+    background-color: aqua;
+    height: 170px;
+    background-image: url(./images/gar4.jpg);
+    background-size: 300px 170px;
+    background-repeat: no-repeat;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    padding: 10px;
+}
+
+.card a{
+    background: black;
+    color: white;
+    justify-content:center;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color:  lightcyan;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s;
+    
+}
+
+.seen{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15%
+}
+
+.seen-images1{
+    background-color: aqua;
+    height: 170px;
+    background-image: url(./images/gar2.jpg)
+}
+
+.seen a{
+    background: black;
+    color: white;
+    justify-content:center;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;  
+}
+
+.seen:hover{
+    background-color:  salmon;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s; 
+}
+
+.tear{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15%  
+}
+
+.tear-images1{
+    background-color: aqua;
+    height: 170px;
+    background-image: url(./images/gar3.jpg); 
+}
+
+.tear a{
+    background: black;
+    color: white;
+    justify-content:center;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none; 
+}
+
+.tear:hover{
+    background-color:  lightpink;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s;  
+}
+
+.lap{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px;
+    word-spacing: 1.6;
+    color: coral;
+    margin-left: 32px;
+    margin-top: 30px;
+}
